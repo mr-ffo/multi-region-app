@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folarin Favour Olaoluwapo | Cloud Engineer Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="top-banner">
+      <div class="banner-copy">
+        <span>Hosted on AWS App Runner</span>
+        <span id="region-badge">Loading environment...</span>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="brand">Folarin Favour Olaoluwapo</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="hero" class="section hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">Cloud Engineer | DevOps Engineer</p>
+          <h1>Folarin Favour Olaoluwapo</h1>
+          <p class="hero-text">
+            Building scalable cloud infrastructure, automation solutions, and modern web applications.
+          </p>
+          <p class="intro-text">
+            I am passionate about cloud computing, DevOps, and software engineering. I design resilient systems,
+            automate workflows, and deliver reliable applications that solve business problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="cloud-card" aria-hidden="true">
+            <div class="cloud-label">Cloud Engineering</div>
+            <div class="cloud-glow"></div>
+
+            <!-- Floating badges to highlight core focus areas -->
+            <ul class="cloud-badges" aria-hidden="true">
+              <li class="cloud-badge">Cloud Security</li>
+              <li class="cloud-badge">CI/CD</li>
+              <li class="cloud-badge">DevOps</li>
+              <li class="cloud-badge">Monitoring</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-header">
+          <span>About Me</span>
+          <h2>Professional Summary</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              I am a Cloud Engineer and DevOps enthusiast focused on AWS, Linux, Infrastructure as Code,
+              CI/CD, Containers, Cloud Security, and scalable systems.
+            </p>
+            <p>
+              My passion is solving business problems through technology by building secure, repeatable,
+              and efficient cloud infrastructure while automating operations and strengthening security.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <h3>Cloud Engineering</h3>
+              <p>Designing resilient AWS solutions, multi-region deployments, and automation workflows.</p>
+            </div>
+            <div class="highlight-card">
+              <h3>DevOps & Automation</h3>
+              <p>Building CI/CD pipelines, infrastructure automation, and efficient developer workflows.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="section-header">
+          <span>Skills</span>
+          <h2>Technical Expertise</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">AWS</div>
+          <div class="skill-card">Linux</div>
+          <div class="skill-card">Docker</div>
+          <div class="skill-card">Kubernetes</div>
+          <div class="skill-card">Git & GitHub</div>
+          <div class="skill-card">CI/CD</div>
+          <div class="skill-card">Node.js</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">MongoDB</div>
+          <div class="skill-card">Terraform</div>
+          <div class="skill-card">Cloud Security</div>
+          <div class="skill-card">Monitoring & Logging</div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-header">
+          <span>Projects</span>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Multi-Region AWS Application Deployment</h3>
+            <p>Built a highly available app across multiple AWS regions using App Runner and automated GitHub deployment workflows.</p>
+            <a class="project-link" href="https://medium.com/@folarinfavourolaoluwapo" target="_blank" rel="noreferrer">Read more on Medium</a>
+          </article>
+          <article class="project-card">
+            <h3>AWS CI/CD Pipeline using Terraform</h3>
+            <p>Automated Terraform runs with CodePipeline and CodeBuild, using S3 state backend, DynamoDB locking, and GitHub CodeStar Connections.</p>
+            <a class="project-link" href="https://medium.com/@folarinfavourolaoluwapo/aws-ci-cd-pipeline-using-terraform-5fe0d3c06af2" target="_blank" rel="noreferrer">Read the case study</a>
+          </article>
+          <article class="project-card">
+            <h3>Threat Detection with GuardDuty</h3>
+            <p>Deployed an insecure app, analyzed attack patterns, and used AWS GuardDuty to detect security threats in a cloud environment.</p>
+            <a class="project-link" href="https://medium.com/@folarinfavourolaoluwapo/threat-detection-with-guardduty-fc7dbf1b50e1" target="_blank" rel="noreferrer">Read the case study</a>
+          </article>
+          <article class="project-card">
+            <h3>Production-Style Kubernetes on AWS with EKS</h3>
+            <p>Built a production-ready Kubernetes environment on Amazon EKS, applying best practices for cluster architecture and workload deployment.</p>
+            <a class="project-link" href="https://medium.com/@folarinfavourolaoluwapo" target="_blank" rel="noreferrer">Read more on Medium</a>
+          </article>
+          <article class="project-card">
+            <h3>Optimizing Video Storage with S3 + Glacier</h3>
+            <p>Designed a cost-efficient storage lifecycle using S3 and Glacier for video content, improving performance and reducing archival costs.</p>
+            <a class="project-link" href="https://medium.com/@folarinfavourolaoluwapo" target="_blank" rel="noreferrer">Read more on Medium</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="section-header">
+          <span>Experience Highlights</span>
+          <h2>Professional Achievements</h2>
+        </div>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <h3>Cloud Engineering Projects</h3>
+            <p>Delivered scalable cloud solutions and automated infrastructure deployments with strong operational reliability.</p>
+          </div>
+          <div class="experience-card">
+            <h3>Security & Monitoring</h3>
+            <p>Implemented threat detection, guardrails, and observability for secure cloud operations.</p>
+          </div>
+          <div class="experience-card">
+            <h3>Infrastructure Automation</h3>
+            <p>Implemented Infrastructure as Code and automated deployments for repeatable cloud operations.</p>
+          </div>
+          <div class="experience-card">
+            <h3>CI/CD Implementation</h3>
+            <p>Designed continuous delivery pipelines to accelerate release velocity and ensure application stability.</p>
+          </div>
+          <div class="experience-card">
+            <h3>Startup Building</h3>
+            <p>Supported early-stage products through rapid iteration, technology design, and growth-focused implementation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-header">
+          <span>Contact</span>
+          <h2>Let's Connect</h2>
+        </div>
+        <p>Connect with me through professional networks or send a message to discuss cloud engineering, DevOps, and security automation.</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://www.linkedin.com/in/folarin-favour-olaoluwapo" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="contact-card" href="https://github.com/mr-ffo" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="contact-card" href="https://medium.com/@folarinfavourolaoluwapo" target="_blank" rel="noreferrer">Medium</a>
+          <a class="contact-card" href="mailto:hello@folarinfavourolaoluwapo.com">Email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Folarin Favour Olaoluwapo • Cloud Engineer, DevOps Engineer</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
